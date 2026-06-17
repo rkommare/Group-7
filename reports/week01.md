@@ -4,18 +4,14 @@ week: 01
 date: 2026-06-17
 members:
   - name: Rithvik Kommareddy
-    github: <rkommare>
+    github: rkommare
     hat: Engineering | Data&Eval
-  - name: <Joseph Kutza>
+  - name: Joseph Kutza
     github: <handle>
     hat: Product
-  - name: <Zachary Hamilton>
+  - name: Zachary Hamilton
     github: <handle>
     hat: Engineering | Data&Eval
-north_star:
-  metric: <e.g. task success rate>
-  value: <this week>
-  previous: <last week>
 ---
 
 ## Shipped this week
@@ -32,6 +28,6 @@ north_star:
 
 ## Individual contributions
 - Rithvik (<hat>): Created Repo
-- Joseph (<hat>): Pitched Idea
+- Joseph (Product): Pitched Idea
 - <name> (<hat>): <what they did>  (evidence: ...)
 
