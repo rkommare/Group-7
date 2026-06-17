@@ -1,5 +1,5 @@
 ---
-team: <your-company-name>
+team: fern-ware
 week: 01
 date: 2026-06-17
 members:
@@ -7,7 +7,7 @@ members:
     github: rkommare
     hat: Engineering | Data&Eval
   - name: Joseph Kutza
-    github: <handle>
+    github: jkutza
     hat: Product
   - name: Zachary Hamilton
     github: <handle>
@@ -15,19 +15,20 @@ members:
 ---
 
 ## Shipped this week
-- Created Repo
+- Created repo
 
 ## User / validation learning
-- <what you learned + how you got it: an interview, usage data, a task test>
+- Interviewed a member of the plant science department to gauge interest
 
 ## Challenges / blockers
-- <what is hard, and what help you need>
+- Addressing the location of the user. The availability of plants varies by region and even state
+- Conflicting information about growing plants. Sources often vary on optimal growing conditions (e.g. one week vs. ten days), so we need to consider how to find a consensus
 
 ## Next week's goal
-- Find data to train our model
+- Find data sources to train our model
 
 ## Individual contributions
-- Rithvik (<hat>): Created Repo
-- Joseph (Product): Pitched Idea
+- Rithvik (<hat>): Created repo, helped write week 1 report
+- Joseph (Product): Pitched idea, helped write week 1 report
 - <name> (<hat>): <what they did>  (evidence: ...)
 
