@@ -5,13 +5,13 @@ date: 2026-06-17
 members:
   - name: Rithvik Kommareddy
     github: rkommare
-    hat: Engineering | Data&Eval
+    hat: Data&Eval
   - name: Joseph Kutza
     github: jkutza
     hat: Product
   - name: Zachary Hamilton
     github: <handle>
-    hat: Engineering | Data&Eval
+    hat: Engineering
 ---
 
 ## Shipped this week
@@ -28,7 +28,7 @@ members:
 - Find data sources to train our model
 
 ## Individual contributions
-- Rithvik (<hat>): Created repo, helped write week 1 report
+- Rithvik (Data&Eval): Created repo, helped write week 1 report
 - Joseph (Product): Pitched idea, helped write week 1 report
 - <name> (<hat>): <what they did>  (evidence: ...)
 
