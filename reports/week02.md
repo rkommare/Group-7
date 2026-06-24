@@ -15,22 +15,22 @@ members:
 ---
 
 ## User / validation learning
-- <what you learned + how you got it: an interview, usage data, a task test>
+- Another interview was conducted with a member of the plant science department to gauge public interest
 
 ## Challenges / blockers
-- <what is hard, and what help you need>
+- Quantifying factors that would contribute to appeal for this product 
 
 ## Next week's goal
-- <the one thing>
+- Begin researching frameworks, packages, etc., that might be helpful for this project
 
 ## Individual contributions
 - Rithvik (Data&Eval): Helped write week 2 report
-- <name> (<hat>): <what they did>  (evidence: ...)
+- Joseph (Product): Helped write week 2 report
 - <name> (<hat>): <what they did>  (evidence: ...)
 
 ## Lean canvas changes (if any)
-- Problem: one sentence, the pain and who feels it.
+- Problem: Beginner plant growers often select plants irrelevant of their environment, leading to poor performance and discouragement of user
 - Solution: A chatbot that recommends plants based on the user's description of their space
-- Why us: one sentence, your data advantage, domain insight, or technical approach.
+- Why us: One group member works in the plant science department at UMD, allowing direct consultation with experts in the field
 
 "A user can describe their space and get a plant recommended."
