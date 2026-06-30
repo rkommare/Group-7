@@ -25,7 +25,7 @@ members:
 
 ## Next week's goal
 - Parse the html into data to train our model on
-- Find more data with information such as tempereature and humidity requirements
+- Find more data with information such as temperature and humidity requirements
 
 ## Individual contributions
 - Rithvik (Data&Eval): Acquired database, helped write report (evidence: commit 22cd45f)
