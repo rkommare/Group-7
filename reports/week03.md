@@ -18,7 +18,7 @@ members:
 - Downloaded the html of an indoor plant database
 
 ## Metrics snapshot
-- <metric>: <value> (was <previous>)
+- Ideal databases contain information pertaining to water amount (liters), sunlight time (hours), location (cardinal direction), and humidity (relative)
 
 ## Challenges / blockers
 - It was difficult to find a free access database with consistent info relevant to our goal
@@ -29,5 +29,5 @@ members:
 
 ## Individual contributions
 - Rithvik (Data&Eval): Acquired database, helped write report (evidence: commit 22cd45f)
-- <name> (<hat>): <what they did>  (evidence: ...)
+- Joseph (Product): Helped look for another database and metrics  (evidence: ...)
 - <name> (<hat>): <what they did>  (evidence: ...)
