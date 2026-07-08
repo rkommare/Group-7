@@ -10,7 +10,7 @@ members:
     github: jkutza
     hat: Product
   - name: Zachary Hamilton
-    github: <handle>
+    github: Zachary-E-Hamilton
     hat: Engineering
 ---
 
@@ -30,4 +30,4 @@ members:
 ## Individual contributions
 - Rithvik (Data&Eval): Acquired database, helped write report (evidence: commit 22cd45f)
 - Joseph (Product): Helped look for another database and metrics  (evidence: ...)
-- <name> (<hat>): <what they did>  (evidence: ...)
+- Zach (Engineering): parse 1 html file, file org
