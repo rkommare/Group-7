@@ -4,447 +4,447 @@
     "genus": "alocasia",
     "lightRequired": "low",
     "wateringSchedule": "medium",
-    "humidity": "high",
+    "humidity": "high"
   },
   {
    "id": 2,
     "genus": "aloe",
     "lightRequired": "high",
     "wateringSchedule": "low",
-    "humidity": "low",
+    "humidity": "low"
   },
   {
    "id": 3,
     "genus": "anthurium",
     "lightRequired": "medium",
     "wateringSchedule": "medium",
-    "humidity": "high",
+    "humidity": "high"
   },
   {
    "id": 4,
     "genus": "apoballis",
     "lightRequired": "medium",
     "wateringSchedule": "high",
-    "humidity": "high",
+    "humidity": "high"
   },
   {
    "id": 5,
     "genus": "arabica",
     "lightRequired": "medium",
     "wateringSchedule": "medium",
-    "humidity": "high",
+    "humidity": "high"
   },
   {
    "id": 6,
     "genus": "aralia",
     "lightRequired": "medium",
     "wateringSchedule": "medium",
-    "humidity": "high",
+    "humidity": "high"
   },
    {
    "id": 7,
     "genus": "begonia",
     "lightRequired": "medium",
     "wateringSchedule": "medium",
-    "humidity": "high",
+    "humidity": "high"
   },
    {
    "id": 8,
     "genus": "bird_of_paradise",
     "lightRequired": "medium",
     "wateringSchedule": "medium",
-    "humidity": "medium",
+    "humidity": "medium"
   },
    {
    "id": 9,
     "genus": "bonsai",
     "lightRequired": "medium",
     "wateringSchedule": "low",
-    "humidity": "medium",
+    "humidity": "medium"
   },
    {
    "id": 10,
     "genus": "bromeliad",
     "lightRequired": "medium",
     "wateringSchedule": "high",
-    "humidity": "high",
+    "humidity": "high"
   },
    {
    "id": 11,
     "genus": "cactus",
     "lightRequired": "high",
     "wateringSchedule": "low",
-    "humidity": "low",
+    "humidity": "low"
   },
    {
    "id": 12,
     "genus": "calathea",
     "lightRequired": "medium",
     "wateringSchedule": "medium",
-    "humidity": "high",
+    "humidity": "high"
   },
    {
    "id": 13,
     "genus": "chinese_evergreen",
     "lightRequired": "medium",
     "wateringSchedule": "medium",
-    "humidity": "high",
+    "humidity": "high"
   },
    {
    "id": 14,
     "genus": "clusia",
     "lightRequired": "medium",
     "wateringSchedule": "medium",
-    "humidity": "high",
+    "humidity": "high"
   },
    {
    "id": 15,
     "genus": "coleus",
     "lightRequired": "medium",
     "wateringSchedule": "low",
-    "humidity": "high",
+    "humidity": "high"
   },
    {
    "id": 16,
     "genus": "cordyline",
     "lightRequired": "medium",
     "wateringSchedule": "medium",
-    "humidity": "high",
+    "humidity": "high"
   },
    {
    "id": 17,
     "genus": "croton",
     "lightRequired": "medium",
     "wateringSchedule": "medium",
-    "humidity": "high",
+    "humidity": "high"
   },
    {
    "id": 18,
     "genus": "cryptanthus",
     "lightRequired": "medium",
     "wateringSchedule": "medium",
-    "humidity": "high",
+    "humidity": "high"
   },
   {
    "id": 19,
     "genus": "ctenanthe",
     "lightRequired": "medium",
     "wateringSchedule": "medium",
-    "humidity": "high",
+    "humidity": "high"
   },
   {
    "id": 20,
     "genus": "dieffenbachia",
     "lightRequired": "medium",
     "wateringSchedule": "medium",
-    "humidity": "high",
+    "humidity": "high"
   },
   {
    "id": 21,
     "genus": "dracaena",
     "lightRequired": "medium",
     "wateringSchedule": "medium",
-    "humidity": "medium",
+    "humidity": "medium"
   },
   {
    "id": 22,
     "genus": "echeveria",
     "lightRequired": "high",
     "wateringSchedule": "low",
-    "humidity": "low",
+    "humidity": "low"
   },
   {
    "id": 23,
     "genus": "epiphyllum",
     "lightRequired": "medium",
     "wateringSchedule": "medium",
-    "humidity": "high",
+    "humidity": "high"
   },
   {
    "id": 24,
     "genus": "fern",
     "lightRequired": "low",
     "wateringSchedule": "medium",
-    "humidity": "high",
+    "humidity": "high"
   },
   {
    "id": 25,
     "genus": "ficus",
     "lightRequired": "medium",
     "wateringSchedule": "medium",
-    "humidity": "high",
+    "humidity": "high"
   },
   {
    "id": 26,
     "genus": "fiddle_leaf_fig",
     "lightRequired": "medium",
     "wateringSchedule": "medium",
-    "humidity": "high",
+    "humidity": "high"
   },
   {
    "id": 27,
     "genus": "fittonia",
     "lightRequired": "high",
     "wateringSchedule": "medium",
-    "humidity": "high",
+    "humidity": "high"
   },
   {
    "id": 28,
     "genus": "gerbera",
     "lightRequired": "high",
     "wateringSchedule": "medium",
-    "humidity": "medium",
+    "humidity": "medium"
   },
    {
    "id": 29,
     "genus": "guzmania",
     "lightRequired": "medium",
     "wateringSchedule": "high",
-    "humidity": "high",
+    "humidity": "high"
   },
   {
    "id": 30,
     "genus": "herb",
     "lightRequired": "high",
     "wateringSchedule": "medium",
-    "humidity": "medium",
+    "humidity": "medium"
   },
   {
    "id": 31,
     "genus": "homalomena",
     "lightRequired": "medium",
     "wateringSchedule": "medium",
-    "humidity": "high",
+    "humidity": "high"
   },
   {
    "id": 32,
     "genus": "hoya",
     "lightRequired": "low",
     "wateringSchedule": "low",
-    "humidity": "high",
+    "humidity": "high"
   },
   {
    "id": 33,
     "genus": "hydrangea",
     "lightRequired": "medium",
     "wateringSchedule": "medium",
-    "humidity": "high",
+    "humidity": "high"
   },
   {
    "id": 34,
     "genus": "hypoestes",
     "lightRequired": "medium",
     "wateringSchedule": "medium",
-    "humidity": "high",
+    "humidity": "high"
   },
   {
    "id": 35,
     "genus": "ivy",
     "lightRequired": "medium",
     "wateringSchedule": "medium",
-    "humidity": "medium",
+    "humidity": "medium"
   },
   {
    "id": 36,
     "genus": "kokedama_ball",
     "lightRequired": "medium",
     "wateringSchedule": "medium",
-    "humidity": "medium",
+    "humidity": "medium"
   },
   {
    "id": 37,
     "genus": "lipstick",
     "lightRequired": "medium",
     "wateringSchedule": "medium",
-    "humidity": "high",
+    "humidity": "high"
   },
   {
    "id": 38,
     "genus": "maranta",
     "lightRequired": "medium",
     "wateringSchedule": "medium",
-    "humidity": "high",
+    "humidity": "high"
   },
   {
    "id": 39,
     "genus": "money_tree",
     "lightRequired": "medium",
     "wateringSchedule": "medium",
-    "humidity": "medium",
+    "humidity": "medium"
   },
   {
    "id": 40,
     "genus": "monstera",
     "lightRequired": "medium",
     "wateringSchedule": "medium",
-    "humidity": "high",
+    "humidity": "high"
   },
   {
    "id": 41,
     "genus": "nematanthus",
     "lightRequired": "medium",
     "wateringSchedule": "medium",
-    "humidity": "high",
+    "humidity": "high"
   },
   {
    "id": 42,
     "genus": "nettle",
     "lightRequired": "medium",
     "wateringSchedule": "medium",
-    "humidity": "low",
+    "humidity": "low"
   },
   {
    "id": 43,
     "genus": "olive",
     "lightRequired": "medium",
     "wateringSchedule": "low",
-    "humidity": "low",
+    "humidity": "low"
   },
   {
    "id": 44,
     "genus": "orchid",
     "lightRequired": "medium",
     "wateringSchedule": "low",
-    "humidity": "high",
+    "humidity": "high"
   },
   {
    "id": 45,
     "genus": "palm",
     "lightRequired": "medium",
     "wateringSchedule": "medium",
-    "humidity": "high",
+    "humidity": "high"
   },
   {
    "id": 46,
     "genus": "peace_lily",
     "lightRequired": "low",
     "wateringSchedule": "medium",
-    "humidity": "high",
+    "humidity": "high"
   },
   {
    "id": 47,
     "genus": "peperomia",
     "lightRequired": "medium",
     "wateringSchedule": "low",
-    "humidity": "high",
+    "humidity": "high"
   },
   {
    "id": 48,
     "genus": "philodendron",
     "lightRequired": "medium",
     "wateringSchedule": "low",
-    "humidity": "high",
+    "humidity": "high"
   },
   {
    "id": 49,
     "genus": "pine",
     "lightRequired": "medium",
     "wateringSchedule": "low",
-    "humidity": "low",
+    "humidity": "low"
   },
   {
    "id": 50,
     "genus": "pilea",
     "lightRequired": "medium",
     "wateringSchedule": "medium",
-    "humidity": "medium",
+    "humidity": "medium"
   },
   {
    "id": 51,
     "genus": "poinsettia",
     "lightRequired": "medium",
     "wateringSchedule": "medium",
-    "humidity": "low",
+    "humidity": "low"
   },
   {
    "id": 52,
     "genus": "pothos",
     "lightRequired": "low",
     "wateringSchedule": "low",
-    "humidity": "high",
+    "humidity": "high"
   },
   {
    "id": 53,
     "genus": "rhaphidophora",
     "lightRequired": "medium",
     "wateringSchedule": "medium",
-    "humidity": "high",
+    "humidity": "high"
   },
   {
    "id": 54,
     "genus": "schefflera",
     "lightRequired": "medium",
     "wateringSchedule": "medium",
-    "humidity": "high",
+    "humidity": "high"
   },
   {
    "id": 55,
     "genus": "scindapsus",
     "lightRequired": "low",
     "wateringSchedule": "low",
-    "humidity": "high",
+    "humidity": "high"
   },
   {
    "id": 56,
     "genus": "snake_plant",
     "lightRequired": "low",
     "wateringSchedule": "low",
-    "humidity": "medium",
+    "humidity": "medium"
   },
   {
    "id": 57,
     "genus": "spider_plant",
     "lightRequired": "medium",
     "wateringSchedule": "medium",
-    "humidity": "medium",
+    "humidity": "medium"
   },
   {
    "id": 58,
     "genus": "stromanthe",
     "lightRequired": "medium",
     "wateringSchedule": "medium",
-    "humidity": "high",
+    "humidity": "high"
   },
   {
    "id": 59,
     "genus": "succulent",
     "lightRequired": "high",
     "wateringSchedule": "low",
-    "humidity": "low",
+    "humidity": "low"
   },
   {
    "id": 60,
     "genus": "syngonium",
     "lightRequired": "low",
     "wateringSchedule": "medium",
-    "humidity": "high",
+    "humidity": "high"
   },
   {
    "id": 61,
     "genus": "tradescantia",
     "lightRequired": "medium",
     "wateringSchedule": "medium",
-    "humidity": "low",
+    "humidity": "low"
   },
   {
    "id": 62,
     "genus": "tillandsia",
     "lightRequired": "medium",
     "wateringSchedule": "low",
-    "humidity": "high",
+    "humidity": "high"
   },
   {
    "id": 63,
     "genus": "yucca",
     "lightRequired": "high",
     "wateringSchedule": "low",
-    "humidity": "medium",
+    "humidity": "medium"
   },
   {
    "id": 64,
     "genus": "zamioculcas_zamiifolia",
     "lightRequired": "low",
     "wateringSchedule": "low",
-    "humidity": "medium",
+    "humidity": "medium"
   }
 ]
