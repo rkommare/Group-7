@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>fern-ware</title>
+    <!-- Links your external stylesheet (style.css) for when you want to add colors later -->
+    <link rel="stylesheet" href="style.css">
+    
+    <!-- Inline minimal layout styles just so it looks organized while testing -->
+    <style>
+        body {
+            font-family: system-ui, -apple-system, sans-serif;
+            background-color: #f4f6f4;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+        .chat-container {
+            width: 100%;
+            max-width: 450px;
+            height: 600px;
+            background: #ffffff;
+            border-radius: 12px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+            display: flex;
+            flex-direction: column;
+            overflow: hidden;
+        }
+        .chat-header {
+            background-color: #2e6f40;
+            color: white;
+            padding: 15px;
+            font-weight: bold;
+            text-align: center;
+        }
+        .chat-log {
+            flex: 1;
+            padding: 15px;
+            overflow-y: auto;
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+        .message {
+            padding: 10px 14px;
+            border-radius: 8px;
+            max-width: 75%;
+            line-height: 1.4;
+            word-wrap: break-word;
+        }
+        .bot-message {
+            background-color: #f0f0f0;
+            align-self: flex-start;
+            color: #333;
+        }
+        .user-message {
+            background-color: #2e6f40;
+            color: white;
+            align-self: flex-end;
+        }
+        .chat-input-area {
+            display: flex;
+            padding: 10px;
+            border-top: 1px solid #eee;
+            background: #fff;
+        }
+        #user-input {
+            flex: 1;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 6px;
+            font-size: 16px;
+            outline: none;
+        }
+        #send-btn {
+            background-color: #2e6f40;
+            color: white;
+            border: none;
+            padding: 0 15px;
+            margin-left: 8px;
+            border-radius: 6px;
+            cursor: pointer;
+            font-weight: bold;
+        }
+        #send-btn:hover {
+            background-color: #22522e;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="chat-container">
+        <header class="chat-header">
+            🌱 fern-ware
+        </header>
+        
+        <!-- This is where javascript will inject new messages -->
+        <main class="chat-log" id="chat-log">
+            <div class="message bot-message">
+                Hello! I can help you find a great houseplant tailored to your space. Type anything to get started!
+            </div>
+        </main>
+        
+        <footer class="chat-input-area">
+            <input type="text" id="user-input" placeholder="Type here!" autocomplete="off">
+            <button id="send-btn">Send</button>
+        </footer>
+    </div>
+
+    <!-- Links your external JavaScript logic script -->
+    <script src="app_full.js"></script>
+</body>
+</html>
