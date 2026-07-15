@@ -1,0 +1,450 @@
+[
+  {
+    "name": "Alocasia",
+    "type": "Genus",
+    "light": "Low Light",
+    "water": "Medium/High Water",
+    "source": "https://www.houseplantresource.com/Alocasia-1923594eeec38127bc73c44ad22213a6"
+  },
+  {
+    "name": "Aloe",
+    "type": "Genus",
+    "light": "Medium/High Light",
+    "water": "Low Water",
+    "source": "https://www.houseplantresource.com/Aloe-1923594eeec3819c9073c1c48946a798"
+  },
+  {
+    "name": "Anthurium",
+    "type": "Genus",
+    "light": null,
+    "water": null,
+    "source": "https://www.houseplantresource.com/Anthurium-1923594eeec381ad9f50cf7565ab0041"
+  },
+  {
+    "name": "Apoballis",
+    "type": "Genus",
+    "light": "Medium/High Light",
+    "water": "Medium/High Water",
+    "source": "https://www.houseplantresource.com/Apoballis-1923594eeec381c89271eafacf1cbaee"
+  },
+  {
+    "name": "Arabica",
+    "type": "Genus",
+    "light": "Medium/High Light",
+    "water": "Medium/High Water",
+    "source": "https://www.houseplantresource.com/Arabica-1923594eeec3811fab05c9a6ac5a64b0"
+  },
+  {
+    "name": "Aralia",
+    "type": "Genus",
+    "light": "Medium/High Light",
+    "water": "Medium/High Water",
+    "source": "https://www.houseplantresource.com/Aralia-1923594eeec3818c8efbf3fa6216d515"
+  },
+  {
+    "name": "Begonia",
+    "type": "Genus",
+    "light": "Low Light",
+    "water": "Medium/High Water",
+    "source": "https://www.houseplantresource.com/Begonia-1923594eeec38181b77bd74955d4379f"
+  },
+  {
+    "name": "Bird of Paradise",
+    "type": "Genus",
+    "light": "Low Light",
+    "water": "Medium/High Water",
+    "source": "https://www.houseplantresource.com/Bird-of-Paradise-1923594eeec3819990f8c0c36cc2ccaa"
+  },
+  {
+    "name": "Bonsai",
+    "type": "Genus",
+    "light": "Medium/High Light",
+    "water": "Medium/High Water",
+    "source": "https://www.houseplantresource.com/Bonsai-1923594eeec381759ccae640837c167f"
+  },
+  {
+    "name": "Bromeliad",
+    "type": "Genus",
+    "light": "Medium/High Light",
+    "water": "Low Water",
+    "source": "https://www.houseplantresource.com/Bromeliad-1923594eeec381979298f7f44a6046f0"
+  },
+  {
+    "name": "Cactus",
+    "type": "Genus",
+    "light": "Medium/High Light",
+    "water": "Low Water",
+    "source": "https://www.houseplantresource.com/Cactus-1923594eeec381ae8e49c8ebbe63a352"
+  },
+  {
+    "name": "Calathea",
+    "type": "Genus",
+    "light": "Medium/High Light",
+    "water": "Low Water",
+    "source": "https://www.houseplantresource.com/Calathea-1923594eeec3817a8028ce8859f1a199"
+  },
+  {
+    "name": "Chinese Evergreen",
+    "type": "Genus",
+    "light": "Low Light",
+    "water": "Low Water",
+    "source": "https://www.houseplantresource.com/Chinese-Evergreen-1923594eeec38169849bc2149f75ebff"
+  },
+  {
+    "name": "Clusia",
+    "type": "Genus",
+    "light": "Medium/High Light",
+    "water": "Low Water",
+    "source": "https://www.houseplantresource.com/Clusia-1923594eeec381b7bc15ec4f191eef29"
+  },
+  {
+    "name": "Coleus",
+    "type": "Genus",
+    "light": "Medium/High Light",
+    "water": "Medium/High Water",
+    "source": "https://www.houseplantresource.com/Coleus-1923594eeec381449d02f9871d2c5875"
+  },
+  {
+    "name": "Cordyline",
+    "type": "Genus",
+    "light": "Medium/High Light",
+    "water": "Medium/High Water",
+    "source": "https://www.houseplantresource.com/Cordyline-1923594eeec3818c9664f5cbda0b00bf"
+  },
+  {
+    "name": "Croton",
+    "type": "Genus",
+    "light": "Medium/High Light",
+    "water": "Medium/High Water",
+    "source": "https://www.houseplantresource.com/Croton-1923594eeec3811d8dd6f4209a54ccb3"
+  },
+  {
+    "name": "Cryptanthus",
+    "type": "Genus",
+    "light": "Low Light",
+    "water": "Low Water",
+    "source": "https://www.houseplantresource.com/Cryptanthus-1923594eeec381e2983cec35312393ea"
+  },
+  {
+    "name": "Ctenanthe",
+    "type": "Genus",
+    "light": "Medium/High Light",
+    "water": "Medium/High Water",
+    "source": "https://www.houseplantresource.com/Ctenanthe-1923594eeec3816aad4ded6699fac9d4"
+  },
+  {
+    "name": "Dieffenbachia",
+    "type": "Genus",
+    "light": "Low Light",
+    "water": "Medium/High Water",
+    "source": "https://www.houseplantresource.com/Dieffenbachia-1923594eeec38189a566ff38e22770c6"
+  },
+  {
+    "name": "Dracaena",
+    "type": "Genus",
+    "light": "Medium/High Light",
+    "water": "Low Water",
+    "source": "https://www.houseplantresource.com/Dracaena-1923594eeec381339cf3ea485e5376e3"
+  },
+  {
+    "name": "Echeveria",
+    "type": "Genus",
+    "light": "Medium/High Light",
+    "water": "Low Water",
+    "source": "https://www.houseplantresource.com/Echeveria-1923594eeec381989dd1e987e0f93bee"
+  },
+  {
+    "name": "Epiphyllum",
+    "type": "Genus",
+    "light": "Medium/High Light",
+    "water": "Medium/High Water",
+    "source": "https://www.houseplantresource.com/Epiphyllum-1b53594eeec38085ba06f57668e0ada1"
+  },
+  {
+    "name": "Fern",
+    "type": "Genus",
+    "light": "Low Light",
+    "water": "Medium/High Water",
+    "source": "https://www.houseplantresource.com/Fern-1923594eeec381b5acb8c400cead4d21"
+  },
+  {
+    "name": "Ficus",
+    "type": "Genus",
+    "light": "Medium/High Light",
+    "water": "Medium/High Water",
+    "source": "https://www.houseplantresource.com/Ficus-1923594eeec38161b7e3cc0f4f5e5f4f"
+  },
+  {
+    "name": "Fiddle Leaf Fig",
+    "type": "Genus",
+    "light": "Medium/High Light",
+    "water": "Medium/High Water",
+    "source": "https://www.houseplantresource.com/Fiddle-Leaf-Fig-1923594eeec3813eb445dacbd8945a8b"
+  },
+  {
+    "name": "Fittonia",
+    "type": "Genus",
+    "light": "Medium/High Light",
+    "water": "Medium/High Water",
+    "source": "https://www.houseplantresource.com/Fittonia-1923594eeec381f9a7ffed4314508cd1"
+  },
+  {
+    "name": "Gerbera",
+    "type": "Genus",
+    "light": "Medium/High Light",
+    "water": "Medium/High Water",
+    "source": "https://www.houseplantresource.com/Gerbera-1b53594eeec38082a335ee4c1f0ccdfe"
+  },
+  {
+    "name": "Guzmania",
+    "type": "Genus",
+    "light": "Medium/High Light",
+    "water": "Low Water",
+    "source": "https://www.houseplantresource.com/Guzmania-1923594eeec381359b03f79b9c1623aa"
+  },
+  {
+    "name": "Herb",
+    "type": "Genus",
+    "light": "Medium/High Light",
+    "water": "Medium/High Water",
+    "source": "https://www.houseplantresource.com/Herb-1923594eeec38198a399f839e494d4d2"
+  },
+  {
+    "name": "Homalomena",
+    "type": "Genus",
+    "light": "Low Light",
+    "water": "Medium/High Water",
+    "source": "https://www.houseplantresource.com/Homalomena-1923594eeec38157a5fec7dc809178db"
+  },
+  {
+    "name": "Hoya",
+    "type": "Genus",
+    "light": "Low Light",
+    "water": "Low Water",
+    "source": "https://www.houseplantresource.com/Hoya-1923594eeec3815a90a6f30923b9ef2c"
+  },
+  {
+    "name": "Hydrangea",
+    "type": "Genus",
+    "light": "Medium/High Light",
+    "water": "Medium/High Water",
+    "source": "https://www.houseplantresource.com/Hydrangea-1923594eeec38128a2abf15a5ce3a2ef"
+  },
+  {
+    "name": "Hypoestes",
+    "type": "Genus",
+    "light": "Medium/High Light",
+    "water": "Medium/High Water",
+    "source": "https://www.houseplantresource.com/Hypoestes-1923594eeec381349f97d95d7f3da65c"
+  },
+  {
+    "name": "Ivy",
+    "type": "Genus",
+    "light": "Medium/High Light",
+    "water": "Medium/High Water",
+    "source": "https://www.houseplantresource.com/Ivy-1923594eeec38126972eecb6e6b62afb"
+  },
+  {
+    "name": "Kokedama Ball",
+    "type": "Genus",
+    "light": "Medium/High Light",
+    "water": "Medium/High Water",
+    "source": "https://www.houseplantresource.com/Kokedama-Ball-1923594eeec38116818bedff6fe55a0c"
+  },
+  {
+    "name": "Lipstick",
+    "type": "Genus",
+    "light": "Medium/High Light",
+    "water": "Medium/High Water",
+    "source": "https://www.houseplantresource.com/Lipstick-1923594eeec381b99608e9761569e43f"
+  },
+  {
+    "name": "Maranta",
+    "type": "Genus",
+    "light": "Medium/High Light",
+    "water": "Medium/High Water",
+    "source": "https://www.houseplantresource.com/Maranta-1923594eeec3813791c9c5d2328d8a31"
+  },
+  {
+    "name": "Money Tree",
+    "type": "Genus",
+    "light": "Medium/High Light",
+    "water": "Medium/High Water",
+    "source": "https://www.houseplantresource.com/Money-Tree-1923594eeec381aebb47f3dde52ebe89"
+  },
+  {
+    "name": "Monstera",
+    "type": "Genus",
+    "light": "Medium/High Light",
+    "water": "Medium/High Water",
+    "source": "https://www.houseplantresource.com/Monstera-1923594eeec381fb94bbda8610c2bdff"
+  },
+  {
+    "name": "Nematanthus",
+    "type": "Genus",
+    "light": "Medium/High Light",
+    "water": "Medium/High Water",
+    "source": "https://www.houseplantresource.com/Nematanthus-1923594eeec381e7b90cee88fb194342"
+  },
+  {
+    "name": "Nettle",
+    "type": "Genus",
+    "light": "Medium/High Light",
+    "water": "Medium/High Water",
+    "source": "https://www.houseplantresource.com/Nettle-1923594eeec3814e8e45c11677f74183"
+  },
+  {
+    "name": "Olive",
+    "type": "Genus",
+    "light": "Medium/High Light",
+    "water": "Low Water",
+    "source": "https://www.houseplantresource.com/Olive-1923594eeec3812c98bfdd3856716345"
+  },
+  {
+    "name": "Orchid",
+    "type": "Genus",
+    "light": "Medium/High Light",
+    "water": "Low Water",
+    "source": "https://www.houseplantresource.com/Orchid-1923594eeec381a88dfed5618196ce47"
+  },
+  {
+    "name": "Palm",
+    "type": "Genus",
+    "light": "Medium/High Light",
+    "water": "Medium/High Water",
+    "source": "https://www.houseplantresource.com/Palm-1923594eeec38152ae29f08417151aa0"
+  },
+  {
+    "name": "Peace Lily",
+    "type": "Genus",
+    "light": "Low Light",
+    "water": "Medium/High Water",
+    "source": "https://www.houseplantresource.com/Peace-Lily-1923594eeec38134a6c8c0b8e3335435"
+  },
+  {
+    "name": "Peperomia",
+    "type": "Genus",
+    "light": "Medium/High Light",
+    "water": "Low Water",
+    "source": "https://www.houseplantresource.com/Peperomia-1923594eeec381b890c1dd98b67f1e01"
+  },
+  {
+    "name": "Philodendron",
+    "type": "Genus",
+    "light": "Medium/High Light",
+    "water": "Low Water",
+    "source": "https://www.houseplantresource.com/Philodendron-1923594eeec381c584e2cb7523f1f53d"
+  },
+  {
+    "name": "Pine",
+    "type": "Genus",
+    "light": "Medium/High Light",
+    "water": "Low Water",
+    "source": "https://www.houseplantresource.com/Pine-1923594eeec381e997d5d5fca965709b"
+  },
+  {
+    "name": "Pilea",
+    "type": "Genus",
+    "light": "Medium/High Light",
+    "water": "Medium/High Water",
+    "source": "https://www.houseplantresource.com/Pilea-1923594eeec381b59e36c653c4d114f4"
+  },
+  {
+    "name": "Poinsettia",
+    "type": "Genus",
+    "light": "Medium/High Light",
+    "water": "Medium/High Water",
+    "source": "https://www.houseplantresource.com/Poinsettia-1923594eeec3818d82a4ca8d54ce64d3"
+  },
+  {
+    "name": "Pothos",
+    "type": "Genus",
+    "light": "Low Light",
+    "water": "Low Water",
+    "source": "https://www.houseplantresource.com/Pothos-1923594eeec381718be6f471cb5d8e6f"
+  },
+  {
+    "name": "Rhaphidophora",
+    "type": "Genus",
+    "light": "Medium/High Light",
+    "water": "Medium/High Water",
+    "source": "https://www.houseplantresource.com/Rhaphidophora-1923594eeec3810e9f2eca4f2497f47c"
+  },
+  {
+    "name": "Schefflera",
+    "type": "Genus",
+    "light": "Medium/High Light",
+    "water": "Medium/High Water",
+    "source": "https://www.houseplantresource.com/Schefflera-1923594eeec381c6be3fe5f0271a2630"
+  },
+  {
+    "name": "Scindapsus",
+    "type": "Genus",
+    "light": "Low Light",
+    "water": "Low Water",
+    "source": "https://www.houseplantresource.com/Scindapsus-1923594eeec38124bfcff7d7add53f98"
+  },
+  {
+    "name": "Snake Plant",
+    "type": "Genus",
+    "light": "Low Light",
+    "water": "Low Water",
+    "source": "https://www.houseplantresource.com/Snake-Plant-1923594eeec38175b89afbdcedbcffae"
+  },
+  {
+    "name": "Spider Plant",
+    "type": "Genus",
+    "light": "Medium/High Light",
+    "water": "Medium/High Water",
+    "source": "https://www.houseplantresource.com/Spider-Plant-1923594eeec38145aecdea283f75b5f5"
+  },
+  {
+    "name": "Stromanthe",
+    "type": "Genus",
+    "light": "Medium/High Light",
+    "water": "Medium/High Water",
+    "source": "https://www.houseplantresource.com/Stromanthe-1923594eeec381a8b729f7ed609b0132"
+  },
+  {
+    "name": "Succulent",
+    "type": "Genus",
+    "light": "Medium/High Light",
+    "water": "Low Water",
+    "source": "https://www.houseplantresource.com/Succulent-1923594eeec381679f6ded9e1948d164"
+  },
+  {
+    "name": "Syngonium",
+    "type": "Genus",
+    "light": "Low Light",
+    "water": "Medium/High Water",
+    "source": "https://www.houseplantresource.com/Syngonium-1923594eeec381f09ab8df7289839f99"
+  },
+  {
+    "name": "Tradescantia",
+    "type": "Genus",
+    "light": "Medium/High Light",
+    "water": "Medium/High Water",
+    "source": "https://www.houseplantresource.com/Tradescantia-1923594eeec3811da00ef3fdbd62d318"
+  },
+  {
+    "name": "Tillandsia",
+    "type": "Genus",
+    "light": "Medium/High Light",
+    "water": "Low Water",
+    "source": "https://www.houseplantresource.com/Tillandsia-1923594eeec3817b8794c5cf30c8c6e6"
+  },
+  {
+    "name": "Yucca",
+    "type": "Genus",
+    "light": "Medium/High Light",
+    "water": "Medium/High Water",
+    "source": "https://www.houseplantresource.com/Yucca-1b53594eeec3802a8731f28c1d44e102"
+  },
+  {
+    "name": "Zamioculcas Zamiifolia 'ZZ'",
+    "type": "Genus",
+    "light": "Low Light",
+    "water": "Low Water",
+    "source": "https://www.houseplantresource.com/Zamioculcas-Zamiifolia-ZZ-1923594eeec38173bb99f2eccb7c1ef5"
+  }
+]
