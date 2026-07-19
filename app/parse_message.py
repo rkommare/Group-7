@@ -5,7 +5,7 @@ classifier = pipeline(
     model="facebook/bart-large-mnli"
 )
 
-def extract_conditions(message):
+def extract_conditions(message,attributes):
     def classify(attribute, choices):
         result = classifier(
             message,
@@ -14,8 +14,7 @@ def extract_conditions(message):
         )
         return result["labels"][0]
 
-    return {
-        "temperature": classify("temperature", ["low", "medium", "high"]),
-        "humidity": classify("humidity", ["low", "medium", "high"]),
-        "sunlight": classify("sunlight", ["low", "medium", "high"])
-    }
+    output = {}
+    for a in attributes:
+        output[a] = classify(a,["low", "medium", "high"])
+    return output
