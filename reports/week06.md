@@ -20,6 +20,8 @@ north_star:
 
 ## Shipped this week
 - Evaluation framework to establish the baseline parsing accuracy. The framework can be reused to evaluate our custom model once we train it. (evidence: commit c7c5b67)
+- Added nlp parsing capability to app (c17252a)
+
 
 ## User / validation learning
 - <what you learned + how you got it: an interview, usage data, a task test>
@@ -35,7 +37,8 @@ north_star:
 
 ## Individual contributions
 - Rithvik (Data&Eval): wrote evaluation code and tested pretrained model  (evidence: commit: c7c5b67)
-- <name> (<hat>): <what they did>  (evidence: ...)
+- Zach (Engineering) added nlp parsing capability to chat (c17252a)
+
 - <name> (<hat>): <what they did>  (evidence: ...)
 
 ## Lean canvas changes (if any)
