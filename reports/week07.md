@@ -36,7 +36,7 @@ north_star:
 ## Individual contributions
 - Rithvik (Data&Eval): Created dataset  (evidence: commit 4e43c1c)
 - Joseph (Product): Further research on plant genera and user inputs  (evidence: commit 40fceda)
-- Zach (Engineering): Added descriptions to plants (evidence: ...)
+- Zach (Engineering): Added descriptions to plants (evidence: commit 5980fe8)
 
 ## Lean canvas changes (if any)
 - A risk was added due to concerns of pets, a feature that seems to be a high priority for prospective users 
