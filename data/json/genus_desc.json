@@ -1,0 +1,514 @@
+[
+  {
+    "id": 1,
+    "genus": "alocasia",
+    "lightRequired": "low",
+    "wateringSchedule": "medium",
+    "humidity": "high",
+    "description": "Elephant Ear is an exotic houseplant with large, impressive leaves that resemble the shape of an elephant’s ear. It prefers bright, indirect light and well-draining, consistently moist soil."
+  },
+  {
+    "id": 2,
+    "genus": "aloe",
+    "lightRequired": "high",
+    "wateringSchedule": "low",
+    "humidity": "low",
+    "description": "Aloe is a group of succulent plants known for their fleshy, spiked leaves that contain a gel with soothing properties. They are low-maintenance and thrive in bright light conditions."
+  },
+  {
+    "id": 3,
+    "genus": "anthurium",
+    "lightRequired": "medium",
+    "wateringSchedule": "medium",
+    "humidity": "high",
+    "description": "Anthurium is a tropical plant known for its glossy, heart-shaped leaves and showy, long-lasting flowers in various colors. It thrives in bright, indirect light and requires consistent moisture."
+  },
+  {
+    "id": 4,
+    "genus": "apoballis",
+    "lightRequired": "medium",
+    "wateringSchedule": "high",
+    "humidity": "high",
+    "description": null
+  },
+  {
+    "id": 5,
+    "genus": "arabica",
+    "lightRequired": "medium",
+    "wateringSchedule": "medium",
+    "humidity": "high",
+    "description": null
+  },
+  {
+    "id": 6,
+    "genus": "aralia",
+    "lightRequired": "medium",
+    "wateringSchedule": "medium",
+    "humidity": "high",
+    "description": "Fatsia Japonica, also known as Japanese Aralia, is a tropical, broadleaf evergreen with large, glossy, palmate leaves. It prefers bright, indirect light and consistently moist soil."
+  },
+  {
+    "id": 7,
+    "genus": "begonia",
+    "lightRequired": "medium",
+    "wateringSchedule": "medium",
+    "humidity": "high",
+    "description": "Begonias are a diverse group of plants known for their colorful, showy flowers and unique foliage. They prefer medium to bright indirect light and consistent moisture."
+  },
+  {
+    "id": 8,
+    "genus": "bird_of_paradise",
+    "lightRequired": "medium",
+    "wateringSchedule": "medium",
+    "humidity": "medium",
+    "description": "Bird of Paradise plants are known for their large, exotic flowers and long, glossy leaves. They prefer bright, indirect light and consistent moisture."
+  },
+  {
+    "id": 9,
+    "genus": "bonsai",
+    "lightRequired": "medium",
+    "wateringSchedule": "low",
+    "humidity": "medium",
+    "description": null
+  },
+  {
+    "id": 10,
+    "genus": "bromeliad",
+    "lightRequired": "medium",
+    "wateringSchedule": "high",
+    "humidity": "high",
+    "description": "Bromeliads are unique, tropical plants with a wide range of colors and patterns. They are typically low-maintenance and can adapt to various light conditions, making them a popular choice for indoor gardening."
+  },
+  {
+    "id": 11,
+    "genus": "cactus",
+    "lightRequired": "high",
+    "wateringSchedule": "low",
+    "humidity": "low",
+    "description": null
+  },
+  {
+    "id": 12,
+    "genus": "calathea",
+    "lightRequired": "medium",
+    "wateringSchedule": "medium",
+    "humidity": "high",
+    "description": "Calathea is a group of plants known for their striking, patterned foliage. They prefer medium to bright indirect light and consistent moisture."
+  },
+  {
+    "id": 13,
+    "genus": "chinese_evergreen",
+    "lightRequired": "medium",
+    "wateringSchedule": "medium",
+    "humidity": "high",
+    "description": "Chinese Evergreen is a popular indoor plant known for its attractive, variegated foliage. It is low-maintenance and can tolerate a wide range of light conditions."
+  },
+  {
+    "id": 14,
+    "genus": "clusia",
+    "lightRequired": "medium",
+    "wateringSchedule": "medium",
+    "humidity": "high",
+    "description": null
+  },
+  {
+    "id": 15,
+    "genus": "coleus",
+    "lightRequired": "medium",
+    "wateringSchedule": "low",
+    "humidity": "high",
+    "description": null
+  },
+  {
+    "id": 16,
+    "genus": "cordyline",
+    "lightRequired": "medium",
+    "wateringSchedule": "medium",
+    "humidity": "high",
+    "description": null
+  },
+  {
+    "id": 17,
+    "genus": "croton",
+    "lightRequired": "medium",
+    "wateringSchedule": "medium",
+    "humidity": "high",
+    "description": "Croton is an indoor plant known for its bold, colorful foliage with various patterns and shades. It prefers bright, indirect light and consistent moisture."
+  },
+  {
+    "id": 18,
+    "genus": "cryptanthus",
+    "lightRequired": "medium",
+    "wateringSchedule": "medium",
+    "humidity": "high",
+    "description": null
+  },
+  {
+    "id": 19,
+    "genus": "ctenanthe",
+    "lightRequired": "medium",
+    "wateringSchedule": "medium",
+    "humidity": "high",
+    "description": null
+  },
+  {
+    "id": 20,
+    "genus": "dieffenbachia",
+    "lightRequired": "medium",
+    "wateringSchedule": "medium",
+    "humidity": "high",
+    "description": "Dumb Cane is a group of tropical plants known for their large, colorful, and patterned leaves. They prefer medium to bright light and consistent moisture."
+  },
+  {
+    "id": 21,
+    "genus": "dracaena",
+    "lightRequired": "medium",
+    "wateringSchedule": "medium",
+    "humidity": "medium",
+    "description": "Dracaena is a diverse group of indoor plants known for their long, strap-like leaves and woody stems. They are generally low-maintenance and can tolerate various light conditions."
+  },
+  {
+    "id": 22,
+    "genus": "echeveria",
+    "lightRequired": "high",
+    "wateringSchedule": "low",
+    "humidity": "low",
+    "description": "Echeveria is a genus of succulents known for their attractive rosette-shaped leaves in various colors. They prefer bright light and are drought-tolerant."
+  },
+  {
+    "id": 23,
+    "genus": "epiphyllum",
+    "lightRequired": "medium",
+    "wateringSchedule": "medium",
+    "humidity": "high",
+    "description": "Orchid Cactus is known for its large, stunning, and colorful flowers. It prefers bright indirect light and well-draining soil."
+  },
+  {
+    "id": 24,
+    "genus": "fern",
+    "lightRequired": "low",
+    "wateringSchedule": "medium",
+    "humidity": "high",
+    "description": "A classic, feathery indoor plant that brings a touch of the outdoors inside. Boston Ferns are appreciated for their lush, green fronds and air-purifying properties."
+  },
+  {
+    "id": 25,
+    "genus": "ficus",
+    "lightRequired": "medium",
+    "wateringSchedule": "medium",
+    "humidity": "high",
+    "description": "Ficus is a diverse group of plants ranging from small shrubs to large trees. Popular indoor varieties include the Fiddle Leaf Fig and the Rubber Plant. Ficus plants generally prefer bright, indirect light and regular watering."
+  },
+  {
+    "id": 26,
+    "genus": "fiddle_leaf_fig",
+    "lightRequired": "medium",
+    "wateringSchedule": "medium",
+    "humidity": "high",
+    "description": "Fiddle Leaf Fig is a popular houseplant with large, dramatic, violin-shaped leaves that add a touch of the tropics to any indoor space. This plant thrives in bright, indirect light and requires well-draining soil."
+  },
+  {
+    "id": 27,
+    "genus": "fittonia",
+    "lightRequired": "high",
+    "wateringSchedule": "medium",
+    "humidity": "high",
+    "description": "Fittonia, also known as Nerve Plant, is a small, compact plant with intricately veined, colorful leaves. It prefers medium to bright indirect light and consistent moisture."
+  },
+  {
+    "id": 28,
+    "genus": "gerbera",
+    "lightRequired": "high",
+    "wateringSchedule": "medium",
+    "humidity": "medium",
+    "description": "A bright and cheerful flowering plant with large, daisy-like blooms in a variety of vibrant colors. Gerbera Daisies are not only visually stunning but also effective at purifying the air."
+  },
+  {
+    "id": 29,
+    "genus": "guzmania",
+    "lightRequired": "medium",
+    "wateringSchedule": "high",
+    "humidity": "high",
+    "description": "Guzmania is a genus of bromeliads known for their vibrant, colorful bracts and unique flower structures. They prefer medium to bright indirect light and consistent moisture."
+  },
+  {
+    "id": 30,
+    "genus": "herb",
+    "lightRequired": "high",
+    "wateringSchedule": "medium",
+    "humidity": "medium",
+    "description": null
+  },
+  {
+    "id": 31,
+    "genus": "homalomena",
+    "lightRequired": "medium",
+    "wateringSchedule": "medium",
+    "humidity": "high",
+    "description": null
+  },
+  {
+    "id": 32,
+    "genus": "hoya",
+    "lightRequired": "low",
+    "wateringSchedule": "low",
+    "humidity": "high",
+    "description": "Hoya is a group of tropical, climbing plants known for their waxy, star-shaped flowers and thick, fleshy leaves. They prefer bright, indirect light and are relatively low-maintenance."
+  },
+  {
+    "id": 33,
+    "genus": "hydrangea",
+    "lightRequired": "medium",
+    "wateringSchedule": "medium",
+    "humidity": "high",
+    "description": null
+  },
+  {
+    "id": 34,
+    "genus": "hypoestes",
+    "lightRequired": "medium",
+    "wateringSchedule": "medium",
+    "humidity": "high",
+    "description": "Polka Dot Plant is a charming, small houseplant with spotted, colorful foliage in shades of pink, red, or white. It prefers bright, indirect light and consistently moist soil."
+  },
+  {
+    "id": 35,
+    "genus": "ivy",
+    "lightRequired": "medium",
+    "wateringSchedule": "medium",
+    "humidity": "medium",
+    "description": "English Ivy is a versatile indoor plant with trailing vines and lobed leaves. It prefers medium to bright indirect light and consistent moisture."
+  },
+  {
+    "id": 36,
+    "genus": "kokedama_ball",
+    "lightRequired": "medium",
+    "wateringSchedule": "medium",
+    "humidity": "medium",
+    "description": null
+  },
+  {
+    "id": 37,
+    "genus": "lipstick",
+    "lightRequired": "medium",
+    "wateringSchedule": "medium",
+    "humidity": "high",
+    "description": "Lipstick Plant is a trailing plant known for its tubular, lipstick-like flowers and glossy, green leaves. It prefers medium to bright indirect light and consistent moisture."
+  },
+  {
+    "id": 38,
+    "genus": "maranta",
+    "lightRequired": "medium",
+    "wateringSchedule": "medium",
+    "humidity": "high",
+    "description": "Maranta, also known as the Red Prayer Plant, features oval leaves with striking red veins and a red midrib. The leaves fold up at night, resembling hands in prayer. It prefers medium to bright indirect light and consistent moisture."
+  },
+  {
+    "id": 39,
+    "genus": "money_tree",
+    "lightRequired": "medium",
+    "wateringSchedule": "medium",
+    "humidity": "medium",
+    "description": null
+  },
+  {
+    "id": 40,
+    "genus": "monstera",
+    "lightRequired": "medium",
+    "wateringSchedule": "medium",
+    "humidity": "high",
+    "description": "Monstera Deliciosa, also known as Swiss Cheese Plant, is a popular tropical houseplant with large, glossy, deeply lobed leaves. It thrives in bright, indirect light and requires well-draining soil."
+  },
+  {
+    "id": 41,
+    "genus": "nematanthus",
+    "lightRequired": "medium",
+    "wateringSchedule": "medium",
+    "humidity": "high",
+    "description": null
+  },
+  {
+    "id": 42,
+    "genus": "nettle",
+    "lightRequired": "medium",
+    "wateringSchedule": "medium",
+    "humidity": "low",
+    "description": null
+  },
+  {
+    "id": 43,
+    "genus": "olive",
+    "lightRequired": "medium",
+    "wateringSchedule": "low",
+    "humidity": "low",
+    "description": null
+  },
+  {
+    "id": 44,
+    "genus": "orchid",
+    "lightRequired": "medium",
+    "wateringSchedule": "low",
+    "humidity": "high",
+    "description": null
+  },
+  {
+    "id": 45,
+    "genus": "palm",
+    "lightRequired": "medium",
+    "wateringSchedule": "medium",
+    "humidity": "high",
+    "description": null
+  },
+  {
+    "id": 46,
+    "genus": "peace_lily",
+    "lightRequired": "low",
+    "wateringSchedule": "medium",
+    "humidity": "high",
+    "description": "Peace Lily is a popular indoor plant known for its glossy, dark green leaves and elegant, white spathes that surround a central flower spike. It can tolerate low to medium light conditions and prefers consistent moisture."
+  },
+  {
+    "id": 47,
+    "genus": "peperomia",
+    "lightRequired": "medium",
+    "wateringSchedule": "low",
+    "humidity": "high",
+    "description": "Peperomia is a diverse genus of small, compact plants with attractive, fleshy leaves. They prefer medium to bright indirect light and consistent moisture."
+  },
+  {
+    "id": 48,
+    "genus": "philodendron",
+    "lightRequired": "medium",
+    "wateringSchedule": "low",
+    "humidity": "high",
+    "description": "Philodendron is a diverse group of plants with heart-shaped leaves that can be either trailing or upright. They are generally low-maintenance and can tolerate a variety of light conditions."
+  },
+  {
+    "id": 49,
+    "genus": "pine",
+    "lightRequired": "medium",
+    "wateringSchedule": "low",
+    "humidity": "low",
+    "description": null
+  },
+  {
+    "id": 50,
+    "genus": "pilea",
+    "lightRequired": "medium",
+    "wateringSchedule": "medium",
+    "humidity": "medium",
+    "description": "Pilea Peperomioides, also known as Chinese Money Plant, features round, coin-shaped leaves on slender, upright stems. It prefers bright, indirect light and well-draining soil."
+  },
+  {
+    "id": 51,
+    "genus": "poinsettia",
+    "lightRequired": "medium",
+    "wateringSchedule": "medium",
+    "humidity": "low",
+    "description": "Poinsettia is a popular holiday plant known for its vibrant red or white bracts surrounding small, inconspicuous flowers. It prefers bright, indirect light and consistent moisture."
+  },
+  {
+    "id": 52,
+    "genus": "pothos",
+    "lightRequired": "low",
+    "wateringSchedule": "low",
+    "humidity": "high",
+    "description": "Pothos, also known as Devil’s Ivy, is a popular indoor plant with heart-shaped leaves and a trailing growth habit. It is low-maintenance and can tolerate a range of light conditions."
+  },
+  {
+    "id": 53,
+    "genus": "rhaphidophora",
+    "lightRequired": "medium",
+    "wateringSchedule": "medium",
+    "humidity": "high",
+    "description": null
+  },
+  {
+    "id": 54,
+    "genus": "schefflera",
+    "lightRequired": "medium",
+    "wateringSchedule": "medium",
+    "humidity": "high",
+    "description": "Schefflera, also known as Umbrella Plant, is a versatile houseplant with palmately compound leaves that form an attractive, umbrella-like canopy. It thrives in bright, indirect light and requires well-draining soil."
+  },
+  {
+    "id": 55,
+    "genus": "scindapsus",
+    "lightRequired": "low",
+    "wateringSchedule": "low",
+    "humidity": "high",
+    "description": "An elegant, vining plant adorned with silver-splashed, heart-shaped leaves. The Silver Pothos adds a touch of glamour and interest to any indoor setting."
+  },
+  {
+    "id": 56,
+    "genus": "snake_plant",
+    "lightRequired": "low",
+    "wateringSchedule": "low",
+    "humidity": "medium",
+    "description": "Snake Plant is a hardy, low-maintenance indoor plant known for its tall, stiff, sword-like leaves with distinctive patterning. It can tolerate various light conditions and requires minimal watering."
+  },
+  {
+    "id": 57,
+    "genus": "spider_plant",
+    "lightRequired": "medium",
+    "wateringSchedule": "medium",
+    "humidity": "medium",
+    "description": "Spider Plant is a popular indoor plant with arching, grass-like leaves and baby plantlets that dangle from the mother plant. It is low-maintenance and can tolerate a range of light conditions."
+  },
+  {
+    "id": 58,
+    "genus": "stromanthe",
+    "lightRequired": "medium",
+    "wateringSchedule": "medium",
+    "humidity": "high",
+    "description": null
+  },
+  {
+    "id": 59,
+    "genus": "succulent",
+    "lightRequired": "high",
+    "wateringSchedule": "low",
+    "humidity": "low",
+    "description": null
+  },
+  {
+    "id": 60,
+    "genus": "syngonium",
+    "lightRequired": "low",
+    "wateringSchedule": "medium",
+    "humidity": "high",
+    "description": "Arrowhead Plant is an indoor plant with arrowhead-shaped leaves that change shape as the plant matures. It prefers medium to bright indirect light and consistent moisture."
+  },
+  {
+    "id": 61,
+    "genus": "tradescantia",
+    "lightRequired": "medium",
+    "wateringSchedule": "medium",
+    "humidity": "low",
+    "description": "Spiderwort is a group of trailing plants with lance-shaped leaves and three-petaled flowers. They prefer bright, indirect light and well-draining soil."
+  },
+  {
+    "id": 62,
+    "genus": "tillandsia",
+    "lightRequired": "medium",
+    "wateringSchedule": "low",
+    "humidity": "high",
+    "description": "Air Plants are a group of unique, epiphytic plants that do not require soil to grow. They absorb water and nutrients from the air through their leaves. They prefer bright, indirect light and regular misting."
+  },
+  {
+    "id": 63,
+    "genus": "yucca",
+    "lightRequired": "high",
+    "wateringSchedule": "low",
+    "humidity": "medium",
+    "description": "Yucca is a drought-tolerant plant with bold, sword-shaped leaves and a distinctive architectural form. It prefers bright light and well-draining soil, making it a low-maintenance option for modern homes."
+  },
+  {
+    "id": 64,
+    "genus": "zamioculcas_zamiifolia",
+    "lightRequired": "low",
+    "wateringSchedule": "low",
+    "humidity": "medium",
+    "description": "ZZ Plant is a low-maintenance indoor plant with glossy, dark green leaves on thick, succulent stems. It can tolerate a wide range of light conditions and is drought-tolerant."
+  }
+]
