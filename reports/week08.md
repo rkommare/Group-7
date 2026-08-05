@@ -1,7 +1,7 @@
 ---
 team: fern-ware
-week: 7
-date: 2026-07-29
+week: 8
+date: 2026-08-05
 members:
   - name: Rithvik Kommareddy
     github: rkommare
