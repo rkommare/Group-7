@@ -37,7 +37,7 @@ north_star:
 ## Individual contributions
 - Rithvik (Data&Eval): 
 - Joseph (Product): Species level database research and further product design (evidence: commit 40fceda)
-- Zach (Engineering): 
+- Zach (Engineering): Add popup to show user descriptions of selected plants (commit 428eedc)
 
 ## Lean canvas changes (if any)
 - A risk was added due to concerns of pets, a feature that seems to be a high priority for prospective users 
