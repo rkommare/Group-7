@@ -22,21 +22,22 @@ north_star:
 - Created dataset for fine tuning the parser  (evidence: commit 4e43c1c)
 
 ## User / validation learning
-- Another member of the UMD plant science department was interviewed for feedback on the current model and things to add
+- We have identified potential test users of our product with little to no experience with plants
 
 ## Metrics snapshot
-- A total of 64 plant genera are used in the current MVP product. Future work will involve adding more plant types, potentially at the species level
+- Identification of popular species for detailled cards
 
 ## Challenges / blockers
-- Finding consistent sources for species-level plant care, as well as addressing subspecies
+- Getting the various technological components of our product to work in unison with no communication errors 
 
 ## Next week's goal
-- Fine tune the parser and achieve improvement over the benchmark accuracy
+- Begin compiling more specific features to the product such as species level recognition
+- Continue refining model
 
 ## Individual contributions
-- Rithvik (Data&Eval): Created dataset  (evidence: commit 4e43c1c)
-- Joseph (Product): Further research on plant genera and user inputs  (evidence: commit 40fceda)
-- Zach (Engineering): Added descriptions to plants (evidence: commit 5980fe8)
+- Rithvik (Data&Eval): 
+- Joseph (Product): Species level database research and further product design (evidence: commit 40fceda)
+- Zach (Engineering): 
 
 ## Lean canvas changes (if any)
 - A risk was added due to concerns of pets, a feature that seems to be a high priority for prospective users 
