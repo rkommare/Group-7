@@ -124,13 +124,25 @@ function findMatches() {
     });
 
     if (matches.length > 0) {
-        const names = matches
-            .map(plant => plant.genus)
-            .join(', ');
+        const buttons = matches
+            .map(plant => {
+                const displayName = plant.genus.replaceAll('_', ' ');
+
+                return `
+                    <button
+                        type="button"
+                        class="plant-result-btn"
+                        data-plant-id="${plant.id}"
+                    >
+                        ${escapeHtml(displayName)}
+                    </button>
+                `;
+            })
+            .join('');
 
         appendBotMessage(
-            `Based on your conditions, you should look into these genera: ` +
-            `<strong>${names}</strong>!`
+            `Based on your conditions, select a genus to learn more:` +
+            `<div class="plant-results">${buttons}</div>`
         );
     } else {
         appendBotMessage(
@@ -208,7 +220,81 @@ async function processSubmission() {
     }
 }
 
+function escapeHtml(value) {
+    return String(value)
+        .replaceAll('&', '&amp;')
+        .replaceAll('<', '&lt;')
+        .replaceAll('>', '&gt;')
+        .replaceAll('"', '&quot;')
+        .replaceAll("'", '&#039;');
+}
 
+
+function showPlantPopup(plant) {
+    const displayName = plant.genus.replaceAll('_', ' ');
+
+    document.getElementById('plant-popup-title').textContent = displayName;
+
+    document.getElementById('plant-popup-description').textContent =
+        plant.description || 'No description is available for this plant.';
+
+    document.getElementById('plant-popup-light').textContent =
+        plant.lightRequired || 'Unknown';
+
+    document.getElementById('plant-popup-water').textContent =
+        plant.wateringSchedule || 'Unknown';
+
+    document.getElementById('plant-popup-humidity').textContent =
+        plant.humidity || 'Unknown';
+
+    document.getElementById('plant-popup').classList.add('show');
+}
+
+
+function closePlantPopup() {
+    document.getElementById('plant-popup').classList.remove('show');
+}
+
+
+// Use event delegation because result buttons are created dynamically.
+chatLog.addEventListener('click', event => {
+    const button = event.target.closest('.plant-result-btn');
+
+    if (!button) {
+        return;
+    }
+
+    const plantId = Number(button.dataset.plantId);
+
+    const selectedPlant = plantDatabase.find(plant => {
+        return plant.id === plantId;
+    });
+
+    if (selectedPlant) {
+        showPlantPopup(selectedPlant);
+    }
+});
+
+
+document
+    .getElementById('plant-popup-close')
+    .addEventListener('click', closePlantPopup);
+
+
+document
+    .getElementById('plant-popup')
+    .addEventListener('click', event => {
+        if (event.target.id === 'plant-popup') {
+            closePlantPopup();
+        }
+    });
+
+
+document.addEventListener('keydown', event => {
+    if (event.key === 'Escape') {
+        closePlantPopup();
+    }
+});
 // Add listeners for both button click and Enter keystroke
 sendBtn.addEventListener('click', processSubmission);
 
