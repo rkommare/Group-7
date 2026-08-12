@@ -35,7 +35,7 @@ north_star:
 
 ## Individual contributions
 - Rithvik (Data&Eval): Trained and evaluated parser  (evidence: commit edab4fb)
-- <name> (<hat>): <what they did>  (evidence: ...)
+- Zach (Engineering): Fixed issue with plant database sometimes not loading in time, improved parsing speed by running multiple in parallel  (evidence: 50afc8d)
 - <name> (<hat>): <what they did>  (evidence: ...)
 
 ## Lean canvas changes (if any)
