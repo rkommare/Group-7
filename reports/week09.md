@@ -22,7 +22,7 @@ north_star:
 - Started finetuning the parser. Only trained for one epoch, but proved that the entire training and evaluation framework functions and a slight improvement was achieved  (evidence: commit edab4fb)
 
 ## User / validation learning
-- <what you learned + how you got it: an interview, usage data, a task test>
+- Additional considerations from prospective users was analyzed, resulting in a strong list of features we are considering for the final product
 
 ## Metrics snapshot
 - Total Parsing Accuracy: .68 (was .5687)
@@ -32,6 +32,7 @@ north_star:
 
 ## Next week's goal
 - Finish finetuning the parser
+- Refine user interface and add features
 
 ## Individual contributions
 - Rithvik (Data&Eval): Trained and evaluated parser  (evidence: commit edab4fb)
