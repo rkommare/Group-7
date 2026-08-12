@@ -3,9 +3,23 @@
 let classifier;
 let plantDatabase = [];
 
-fetch('../data/json/genus.json')
-  .then(response => response.json())
-  .then(data => { plantDatabase = data; });
+const plantDatabasePromise = fetch('../data/json/genus.json')
+    .then(response => {
+        if (!response.ok) {
+            throw new Error(
+                `Could not load genus.json (HTTP ${response.status}).`
+            );
+        }
+
+        return response.json();
+    })
+    .then(data => {
+        if (!Array.isArray(data)) {
+            throw new Error('genus.json must contain an array.');
+        }
+
+        plantDatabase = data;
+    });
 
 // Step 2: Track user preferences
 let userPreferences = {
@@ -28,47 +42,46 @@ async function extractConditions(message) {
         );
     }
 
-    // Determine the user's watering availability
-    const waterResult = await classifier(
-        message,
-        [
-            'rare watering',
-            'weekly watering',
-            'frequent watering'
-        ],
-        {
-            hypothesis_template:
-                "The user's plant watering schedule is {}."
-        }
-    );
+    const [waterResult, humidityResult, sunlightResult] = await Promise.all([
+        classifier(
+            message,
+            [
+                'rare watering',
+                'weekly watering',
+                'frequent watering'
+            ],
+            {
+                hypothesis_template:
+                    "The user's plant watering schedule is {}."
+            }
+        ),
 
-    // Determine the room humidity
-    const humidityResult = await classifier(
-        message,
-        [
-            'low humidity',
-            'medium humidity',
-            'high humidity'
-        ],
-        {
-            hypothesis_template:
-                'The room has {}.'
-        }
-    );
+        classifier(
+            message,
+            [
+                'low humidity',
+                'medium humidity',
+                'high humidity'
+            ],
+            {
+                hypothesis_template:
+                    'The room has {}.'
+            }
+        ),
 
-    // Determine the room sunlight
-    const sunlightResult = await classifier(
-        message,
-        [
-            'low sunlight',
-            'medium sunlight',
-            'high sunlight'
-        ],
-        {
-            hypothesis_template:
-                'The room has {}.'
-        }
-    );
+        classifier(
+            message,
+            [
+                'low sunlight',
+                'medium sunlight',
+                'high sunlight'
+            ],
+            {
+                hypothesis_template:
+                    'The room has {}.'
+            }
+        )
+    ]);
 
     // Convert the model's labels to the values used by genus.json
     const waterMap = {
@@ -103,6 +116,7 @@ async function handleUserInput(input) {
         "Analyzing your description. The model may take a moment to load..."
     );
 
+    await plantDatabasePromise;
     userPreferences = await extractConditions(input);
 
     appendBotMessage(
@@ -117,22 +131,57 @@ async function handleUserInput(input) {
 
 // Step 4: Filter the JSON data based on collected preferences
 function findMatches() {
-    const matches = plantDatabase.filter(plant => {
+    let matches = plantDatabase.filter(plant => {
         return plant.lightRequired === userPreferences.sun &&
                plant.wateringSchedule === userPreferences.water &&
                plant.humidity === userPreferences.humidity;
     });
 
+    let introduction =
+        'Based on your conditions, select a genus to learn more:';
+
+    // If there is no exact match, rank plants by matching conditions.
+    if (matches.length === 0) {
+        const rankedPlants = plantDatabase
+            .map(plant => {
+                const score =
+                    Number(
+                        plant.lightRequired === userPreferences.sun
+                    ) +
+                    Number(
+                        plant.wateringSchedule === userPreferences.water
+                    ) +
+                    Number(
+                        plant.humidity === userPreferences.humidity
+                    );
+
+                return { plant, score };
+            })
+            .sort((a, b) => b.score - a.score);
+
+        const bestScore = rankedPlants[0]?.score ?? 0;
+
+        matches = rankedPlants
+            .filter(result => result.score === bestScore)
+            .slice(0, 6)
+            .map(result => result.plant);
+
+        introduction =
+            `I couldn't find an exact match, but these options match ` +
+            `<strong>${bestScore} of 3</strong> conditions:`;
+    }
+
     if (matches.length > 0) {
         const buttons = matches
             .map(plant => {
-                const displayName = plant.genus.replaceAll('_', ' ');
+                const displayName =
+                    plant.genus.replaceAll('_', ' ');
 
                 return `
                     <button
                         type="button"
                         class="plant-result-btn"
-                        data-plant-id="${plant.id}"
+                        data-plant-id="${escapeHtml(plant.id)}"
                     >
                         ${escapeHtml(displayName)}
                     </button>
@@ -141,13 +190,12 @@ function findMatches() {
             .join('');
 
         appendBotMessage(
-            `Based on your conditions, select a genus to learn more:` +
+            `${introduction}` +
             `<div class="plant-results">${buttons}</div>`
         );
     } else {
         appendBotMessage(
-            "Hmm, I couldn't find a perfect match for that exact " +
-            "description. Try describing different conditions."
+            "I couldn't find any plants in the plant database."
         );
     }
 }
@@ -264,10 +312,10 @@ chatLog.addEventListener('click', event => {
         return;
     }
 
-    const plantId = Number(button.dataset.plantId);
+    const plantId = button.dataset.plantId;
 
     const selectedPlant = plantDatabase.find(plant => {
-        return plant.id === plantId;
+        return String(plant.id) === plantId;
     });
 
     if (selectedPlant) {
