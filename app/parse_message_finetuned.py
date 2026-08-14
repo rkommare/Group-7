@@ -1,9 +1,10 @@
 from transformers import pipeline
 
+path = "./parser_finetuned"
 classifier = pipeline(
     "zero-shot-classification",
-    model="./parser_finetuned",
-    tokenizer='./parser_finetuned'
+    model= path,
+    tokenizer=path
 )
 
 def extract_conditions_ft(message,attributes):

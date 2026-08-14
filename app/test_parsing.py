@@ -101,4 +101,4 @@ def test_finetuned(n):
     print(f'total accuracy: {sum(num_correct)/(n*len(attributes))}')
 
 #test_baseline(1000)
-test_finetuned(1000)
+test_finetuned(100)

@@ -6,6 +6,7 @@ from transformers import DataCollatorWithPadding
 from transformers import TrainingArguments
 from transformers import Trainer
 
+num_samples = 1000
 attributes = ['temperature','humidity','sunlight']
 values = ['low','medium','high']
 raw = pd.read_csv("./dataset/data.csv")
@@ -18,7 +19,7 @@ features = {}
 for a in attributes:
     features[a] = raw[a]
 
-for i in range(len(texts)):
+for i in range(min(num_samples,len(texts))):
     for a in attributes:
         for v in values:
             premises += [texts[i]]
@@ -51,17 +52,22 @@ data_collator = DataCollatorWithPadding(tokenizer=tokenizer)
 training_args = TrainingArguments(
     output_dir="parser_finetuned",
     num_train_epochs=1,
-    per_device_train_batch_size=4,
+    per_device_train_batch_size=16,
     bf16=True,
     learning_rate=2e-5,
     logging_strategy='no',
-    save_strategy="no"
+    eval_strategy='steps',
+    eval_steps=1,
+    save_strategy="best",
+    save_total_limit=1,
+    load_best_model_at_end=True
 )
 
 trainer = Trainer(
     model=model,
     args=training_args,
     train_dataset=dataset["train"],
+    eval_dataset=dataset['test'],
     processing_class=tokenizer,
     data_collator=data_collator
 )
