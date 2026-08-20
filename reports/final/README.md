@@ -9,7 +9,9 @@ We have designed a chatbot that inputs a user's description about their living s
 Download the files from the "nlpapp", "data", and "app" folders and place in a directory on local machine. Using a program such as Visual Studio, run the index.html file as a live server and the app will launch as an .html tab in a web browser.
 
 Install required packages:
+
 python -m pip install flask torch transformers safetensors
+
 python -m pip install pandas datasets accelerate
 
 Start Application:
