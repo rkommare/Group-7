@@ -1,56 +1,101 @@
 from transformers import AutoModelForCausalLM, AutoTokenizer
+import pandas as pd
 import random
-import pandas
+import torch
+
+random.seed(42)
+torch.manual_seed(42)
 
 generator_name = "Qwen/Qwen3-0.6B"
+device = "cuda" if torch.cuda.is_available() else "cpu"
+
 generator_tokenizer = AutoTokenizer.from_pretrained(generator_name)
 generator = AutoModelForCausalLM.from_pretrained(
     generator_name,
     torch_dtype="auto",
-)
+).to(device)
 
-def generate_dataset(attributes,n):
+generator.eval()
+
+
+def generate_dataset(attributes, n):
     def random_level():
-        return ['low','medium','high'][random.randint(0,2)]
+        return random.choice(["low", "medium", "high"])
 
-    X = []
-    labels = {}
-    for a in attributes:
-        labels[a] = []
+    examples = []
+    labels = {attribute: [] for attribute in attributes}
+
     for i in range(n):
-        print(f"{i}/{n}")
-        ground_truth = {}
-        for a in attributes:
-            ground_truth[a] = random_level()
-        strings = [f"{ground_truth[a]} {a}" for a in attributes]
-        string = ', '.join(strings[:-1]) + ', and ' + strings[-1]
-        prompt = f"Describe a room with {string} without using those words."
-        messages = [
-            {"role": "user", "content": prompt}
-        ]
+        print(f"{i + 1}/{n}")
+
+        ground_truth = {
+            attribute: random_level()
+            for attribute in attributes
+        }
+
+        prompt = f"""
+Write one concise, natural description of someone's houseplant environment.
+
+The intended conditions are:
+- Watering frequency: {ground_truth["watering"]}
+- Room humidity: {ground_truth["humidity"]}
+- Sunlight: {ground_truth["sunlight"]}
+
+Express these conditions naturally without using the words
+"low", "medium", or "high". Return only the description.
+""".strip()
+
+        messages = [{"role": "user", "content": prompt}]
+
         text = generator_tokenizer.apply_chat_template(
             messages,
             tokenize=False,
             add_generation_prompt=True,
-            enable_thinking=False # Switches between thinking and non-thinking modes. Default is True.
+            enable_thinking=False
         )
-        model_inputs = generator_tokenizer([text], return_tensors="pt").to(generator.device)
-        
-        # conduct text completion
-        generated_ids = generator.generate(
-            **model_inputs,
-            max_new_tokens=32768
-        )
-        output_ids = generated_ids[0][len(model_inputs.input_ids[0]):].tolist() 
-        
-        content = generator_tokenizer.decode(output_ids, skip_special_tokens=True).strip("\n")
-        X += [content]
-        for a in attributes:
-            labels[a] += [ground_truth[a]]
-    return X,labels
 
-attributes = ['temperature','humidity','sunlight']
-X,labels = generate_dataset(attributes,1000)
-labels['text'] = X
-data = pandas.DataFrame(labels)
-data.to_csv('./dataset/data.csv',index=False)
+        model_inputs = generator_tokenizer(
+            [text],
+            return_tensors="pt"
+        ).to(device)
+
+        with torch.no_grad():
+            generated_ids = generator.generate(
+                **model_inputs,
+                max_new_tokens=100,
+                do_sample=True,
+                temperature=0.85,
+                top_p=0.95,
+                repetition_penalty=1.05,
+                pad_token_id=generator_tokenizer.eos_token_id
+            )
+
+        output_ids = generated_ids[0][
+            len(model_inputs.input_ids[0]):
+        ]
+
+        content = generator_tokenizer.decode(
+            output_ids,
+            skip_special_tokens=True
+        ).strip()
+
+        examples.append(content)
+
+        for attribute in attributes:
+            labels[attribute].append(ground_truth[attribute])
+
+    return examples, labels
+
+
+attributes = ["watering", "humidity", "sunlight"]
+examples, labels = generate_dataset(attributes, 1000)
+
+data = pd.DataFrame({
+    "text": examples,
+    **labels
+})
+
+print(f"Duplicate descriptions: {data['text'].duplicated().sum()}")
+
+data.to_csv("./dataset/data.csv", index=False)
+print("Saved dataset/data.csv")
