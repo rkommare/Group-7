@@ -46,7 +46,7 @@
   "problem_type": "single_label_classification",
   "scale_embedding": false,
   "tie_word_embeddings": true,
-  "transformers_version": "5.14.1",
+  "transformers_version": "5.15.0",
   "use_cache": false,
   "vocab_size": 50265
 }
